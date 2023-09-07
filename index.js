@@ -6,7 +6,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.set("view engine", "ejs");
 app.use(express.static("public"));
 
-var task = ["Learn Docker", "practise with K8"];
+var task = ["Learn Jenkins", "practise with K8"];
 var complete = ["finish Jenkins"];
 
 app.post("/addtask", function(req, res) {
